@@ -1,16 +1,29 @@
 /*search navigation*/
 .search{
-    float:left;
-
+float:left;
+background-color: rgb(221, 215, 205);
+width: 500px;
+height: 700px;
 }
 
 
 /* current date */
 .current{
+width: 800px;
+height: 400px;
 float:right;
+border:30px
+margin= 50px, dotted, black;
+background-color:rgb(243, 238, 231);
+position:top;
 }
+
 
 /* 5-day forecast */
 .forecast{
+width: 800px;
+height: 300px;
 float:right;
+position:bottom;
+background-color: gray;
 }
