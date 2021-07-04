@@ -1,0 +1,16 @@
+/*search navigation*/
+.search{
+    float:left;
+
+}
+
+
+/* current date */
+.current{
+float:right;
+}
+
+/* 5-day forecast */
+.forecast{
+float:right;
+}

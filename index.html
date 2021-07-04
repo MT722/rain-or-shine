@@ -12,11 +12,81 @@
 </head>
 <body>
 
-    <header class = 'jumbotron'>
-        <h1 > Weather App</h1>
+    <header class = 'jumbotron'> <!--jumbotron header -->
+        <h1 > <strong>Weather App</strong></h1>
+        <p>The place to go for all of your weather inquiries</p>
     </header>
 
+<div class = 'search'>
+<span >  
+    <section class = 'search-bar'>
+        <form>
+            <label for="fname">Search:</label>
+            <input type="text" placeholder="Enter city name">
+        </form>
+</section>
+
+<section class = 'history'>
+
+<ul class = 'searched-cities'></ul>
+
+</section>
+
+</span>
+</div>
+
+<div class = 'current '>
+    <h3 class = 'current-name'></h3>
+    <p class = 'current-date'></p>
+    <p class = 'current-temp'></p>
+    <p class = 'current-hum'></p>
+    <p class = 'current-wind'></p>
+    <p class = 'current-uv'></p>
+
+</div>
+
+<div class = 'forecast'>
+
+<section class = 'day1'>
+    <h5 class = 'day1-date'></h5>
+    <h5 class = 'day1-icon'></h5>
+    <p class = 'day1-temp'></p>
+    <p class = 'day1-hum'></p>
+</section>
+
+<section class = 'day2'>
+    <h5 class = 'day2-date'></h5>
+    <h5 class = 'day2-icon'></h5>
+    <p class = 'day2temp'></p>
+    <p class = 'day2-hum'></p>
+</section>
+
+<section class = 'day3'>
+    <h5 class = 'day3-date'></h5>
+    <h5 class = 'day3-icon'></h5>
+    <p class = 'day3-temp'></p>
+    <p class = 'day3-hum'></p>
+</section>
+
+<section class = 'day4'>
+    <h5 class = 'day4-date'></h5>
+    <h5 class = 'day4-icon'></h5>
+    <p class = 'day4-temp'></p>
+    <p class = 'day4-hum'></p>
+</section>
+
+<section class = 'day5'>
+    <h5 class = 'day5-date'></h5>
+    <h5 class = 'day5-icon'></h5>
+    <p class = 'day5-temp'></p>
+    <p class = 'day5-hum'></p>
+</section>
+
+</div>
+
+
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
 </body>
 </html>
